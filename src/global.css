@@ -4,6 +4,11 @@ body {
   color: #2e2c35;
 }
 
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .card-container {
   display: flex;
   gap: 40px;
