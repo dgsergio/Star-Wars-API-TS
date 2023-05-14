@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { People, PeopleAPI } from '../swapi.model';
+import { PeopleAPI } from '../swapi.model';
 
 export default function useFetch() {
   const [status, setStatus] = useState({ error: '', loading: false });

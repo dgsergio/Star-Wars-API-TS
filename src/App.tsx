@@ -3,7 +3,7 @@ import './global.css';
 import { PeopleAPI, Person, People } from './swapi.model';
 import Header from './components/Header';
 import Main from './components/Main';
-import useFetch from './hooka/useFetch';
+import useFetch from './hooks/useFetch';
 
 function App() {
   const [people, setPeople] = useState<People>({
